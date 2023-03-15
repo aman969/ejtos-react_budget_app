@@ -9,14 +9,15 @@ const Currency=() =>{
         });
     };
     return(
-        <select className="selectpicker" data-style="btn-success" id="currencySelect" onChange={changeCurrency}>
+    
+        <select className="form-select alert alert-success"  id="currencySelect" onChange={changeCurrency}>
             <option defaultValue>Currency (£ Pound)</option>
             <option value="$" name="dollar"> $ Dollar</option>
             <option value="£" name="pound">£ Pound</option>
             <option value="€" name="euro">€ Euro</option>
             <option value="₹" name="rupee">₹ Ruppee</option>
-            </select>
-        
+        </select>
+    
     );
 };
 

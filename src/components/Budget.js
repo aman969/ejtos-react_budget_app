@@ -25,7 +25,7 @@ const Budget = () => {
                    value={newbudget}
                    max="20000"
                    step="10"
-                   style={{ marginLeft: '2rem' , size: 10}}
+                   style={{ marginLeft: '1rem', width: '100px'}}
                    onChange={updateBudget}/>
         </div>
     );
